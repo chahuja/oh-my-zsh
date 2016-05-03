@@ -23,7 +23,7 @@ export PATH=/usr/local/cuda-7.0/bin:$PATH
 export PYTHONPATH=/home/chahuja/caffe/python:$PYTHONPATH
 
 # torch path
-. /home/chahuja/torch/install/bin/torch-activate
+. $HOME/torch/install/bin/torch-activate
 
 
 # alias for cudnn
