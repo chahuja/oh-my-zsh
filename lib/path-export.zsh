@@ -9,8 +9,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-7.5/lib64:$LD_LIBRARY_PATH
 
 # virtualenv and virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+#export WORKON_HOME=$HOME/.virtualenvs
+#source /usr/local/bin/virtualenvwrapper.sh
 
 # tab-complete for python
 export PYTHONSTARTUP="/home/chahuja/.pyrc"
